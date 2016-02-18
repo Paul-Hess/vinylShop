@@ -1,0 +1,95 @@
+.menu-text img {
+  width: 70%;
+}
+
+html, body {
+  margin: 0;
+  width: 100vw;
+}
+
+#merch-menu, ul[role='menubar'] {
+  background-color: black;
+  height: 14vh;
+}
+
+div#merch-menu.top-bar {
+  height: 15vh;
+}
+
+li[role="menuitem"] a {
+  color: white;
+}
+
+.dropdown.menu .is-dropdown-submenu-parent.is-down-arrow > a::after {
+  border-top-color: rgb(255, 255, 255);
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.vinyl {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.vinyl img {
+  width: 100%;
+  height:auto;
+}
+
+.record-bin {
+  display: table;
+}
+
+.record-bin, .row, .small-12.medium-12.large-8.columns, .small-12.medium-12.large-4.columns {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.tours table.tour-info {
+  box-sizing: border-box;
+  margin: 0 10em;
+  padding: 0 5em;
+  width: 25em;
+}
+
+div.tours h4, h4 + p {
+  text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+  .record-bin {
+    width: 80%;
+    margin: auto;
+  }
+
+  .vinyl img {
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+
+  div.small-12.medium-12.large-4.columns.tours {
+    margin: .5em 0;
+  }
+
+  div.tours h4 {
+    width: 30em;
+    text-align: left;
+    margin-left: 1.5em;
+  }
+
+  h4+p {
+  text-align: left;
+  margin: 2em;
+  }
+
+.tours table.tour-info {
+  margin: 0 2em;;
+}
+
+}
